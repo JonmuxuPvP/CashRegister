@@ -1,7 +1,7 @@
 from shop import Product, CashRegister, Server
 
 def main():
-    cr = CashRegister()
+    cr = CashRegister('GodTorch')
     # cr1 = CashRegister()
 
     list = [Product('N64 Controller', 49.99, 'Nintendo'), Product('PS4 Controller', 29.99, 'Sony'), 

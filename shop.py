@@ -4,6 +4,9 @@ import time
 
 class CashRegister:
 
+    def __init__(self, name):
+        self.name = name
+
     # TODO Add a payment method, either credit card or cash
     # Find ways to format strings better
     def checkout(self):
