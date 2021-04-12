@@ -1,9 +1,7 @@
 from shop import Product, CashRegister, Server
 
 def main():
-    cr = CashRegister('Caja1')
-    cr1 = CashRegister('Caja2')
-    cr2 = CashRegister('Caja3')
+    cr = CashRegister('Test')
 
     list = [Product('N64 Controller', 49.99, 'Nintendo'), Product('PS4 Controller', 29.99, 'Sony'), 
             Product('GC Controller', 129.99, 'Nintendo'), Product('PS2 Controller', 12.99, 'Sony'),
@@ -16,7 +14,6 @@ def main():
     print(Server.print_products())
 
     cr.checkout()
-    cr1.checkout()
     input('Printing all the tickets...')
     Server.print_tickets()
 
